@@ -5,6 +5,10 @@ Claude. No prior coding experience needed; every term gets explained the first
 time it comes up (see [GLOSSARY.md](GLOSSARY.md) any time you want to look one
 back up).
 
+**Haven't set up VS Code or Claude Code yet?** Start here instead:
+[Before You Start — Setup Guide](https://claude.ai/code/artifact/21879c74-51de-4221-af64-ed9a27dacb18).
+Come back to this page once you've run `/agent-tutorial` for the first time.
+
 ## How this works
 
 You already have this folder open in an editor with Claude Code running. To

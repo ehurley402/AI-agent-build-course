@@ -4,13 +4,20 @@ Not shown to learners — this is for you.
 
 ## Setup, per learner
 
-1. **Copy this whole `agent-coding-tutor` folder** for each learner (or have them
-   clone/copy it themselves) — each learner needs their own copy, since
-   `progress.json` and `workspace/`'s git history are per-learner state, and
-   Lesson A5 has each learner run `git init` inside their own `workspace/`.
-2. You handle: installing VSCode, installing the Claude Code extension, and
-   opening this folder in it, for each learner. The tutorial itself starts from
-   "the editor is already open" (Lesson A0).
+0. **Send the learner this link first, before anything else:**
+   [Before You Start — Setup Guide](https://claude.ai/code/artifact/21879c74-51de-4221-af64-ed9a27dacb18).
+   It's a self-serve, no-jargon walkthrough covering everything this tutorial
+   assumes is already done: installing VS Code, installing the Claude Code
+   extension, signing in with their PIO account, downloading this repo as a
+   zip (no git required for that step), opening it in VS Code, and running
+   `/agent-tutorial` for the first time. You don't need to be present for this
+   part unless something goes wrong — the page's footer points them back to you.
+1. Each learner's zip download from that page is already their own independent
+   copy — `progress.json` and `workspace/`'s eventual git history are
+   per-learner state, and Lesson A5 has each learner run `git init` inside their
+   own `workspace/`, so no two learners should share a copy.
+2. If you're setting a learner up yourself instead of having them self-serve,
+   the setup guide above is the same walkthrough you'd otherwise do by hand.
 3. When they reach **Lesson A6**, give them an Anthropic API key (a string
    starting `sk-ant-`). They set it as an environment variable themselves — it
    never gets typed into a file or committed to git. One key per learner (or per
