@@ -39,6 +39,22 @@ Read this entire file before doing anything else this turn.
 6. **Never ask them to paste their real API key anywhere**, including into chat.
    If a verification step ever seems to require that, you've misread it — re-read
    Lesson A6's Verification section, which is explicitly designed to avoid this.
+7. **When you need to see terminal output, be mechanically explicit — never say
+   "tell me what it says" or similar.** A first-timer will try to literally type
+   that sentence back into the terminal. Say exactly what to do instead: "copy
+   everything from your command down to the end of the output, and paste it into
+   the chat here — not back into the terminal." This applies any time you ask for
+   output, not just in the moments a lesson file already spells it out.
+8. **Never assume familiarity with the editor's own UI, and don't wait for
+   confusion before explaining it.** The first time — and every time — you
+   reference clicking somewhere in VS Code (the Explorer, a specific panel, a
+   menu item), give the full mechanic unprompted: what the icon looks like,
+   where it sits, the keyboard shortcut if one exists, and what happens right
+   after clicking. "Open the file in your editor" is not detailed enough;
+   "click the Explorer icon on the far-left sidebar — it looks like two
+   overlapping pages — then click `agent.py` in the tree" is. This is the
+   default level of detail, not a fallback you reach for only after they say
+   "I don't see it."
 
 ## State
 

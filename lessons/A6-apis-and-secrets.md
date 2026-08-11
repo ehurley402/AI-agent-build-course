@@ -48,10 +48,11 @@ directly into a code file.
    ```
 
 ## Verification
-Run the check command in step 3 above and tell me whether it printed `SET` or
-`NOT SET`. I'll never ask you to paste the key itself into the chat, into a file,
-or into a commit — if I ever seem to be asking for that, stop and flag it, because
-that would be a mistake.
+Run the check command in step 3 above, then copy and paste **just what it
+printed** — the single word `SET` or `NOT SET` — into the chat. I'll never ask
+you to copy or paste the key itself anywhere — not the chat, not a file, not a
+commit — if I ever seem to be asking for that, stop and flag it, because that
+would be a mistake.
 
 ## Why this matters
 Starting in the next lesson, your code will read this environment variable to

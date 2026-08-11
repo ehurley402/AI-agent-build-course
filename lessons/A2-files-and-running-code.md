@@ -26,20 +26,27 @@ of the tutorial — write text into a file, then tell Python to run that file.
    tutorial (use `cd workspace` if you're not sure — `cd` means **c**hange
    **d**irectory).
 
-2. Create a new file called `hello.py` inside `workspace`. You can do this in your
-   editor's file explorer (right-click → New File) or from the terminal:
+2. Create a new file called `hello.py`, using the Explorer from Lesson A0:
+   - In the Explorer, right-click directly on the `workspace` folder itself
+     (not the tutorial's top-level folder, and not an existing file).
+   - Choose **New File** from the menu that pops up.
+   - Type the name `hello.py` exactly, then press Enter.
+   - VS Code creates the file and opens it immediately in the editor pane — you
+     should see an empty tab titled `hello.py` with a blinking cursor in it.
 
-   ```powershell
-   New-Item hello.py
-   ```
+   (If you'd rather use the terminal: make sure it's standing in `workspace`
+   — `cd workspace` — then run `New-Item hello.py`, and double-click `hello.py`
+   in the Explorer to open it.)
 
-3. Open `hello.py` and type this one line into it, exactly:
+3. Click into that empty editor tab and type this one line into it, exactly:
 
    ```python
    print("Hello, world!")
    ```
 
-   Save the file.
+   Save the file: `Ctrl+S`. You'll see a small dot on the file's tab disappear
+   once it's saved — that dot means "unsaved changes," so its disappearing is
+   your confirmation.
 
 4. Run it:
 
@@ -55,9 +62,9 @@ python workspace/hello.py
 ```
 
 and check that it prints exactly `Hello, world!` with no errors. If Python
-complains, read me the exact error message — the wording tells us precisely what's
-wrong (a typo, a missing quote, wrong indentation), and reading that message
-carefully is a skill you'll use constantly from here on.
+complains, copy and paste the exact error message into the chat — the wording
+tells us precisely what's wrong (a typo, a missing quote, wrong indentation), and
+reading that message carefully is a skill you'll use constantly from here on.
 
 ## Why this matters
 "Write code into a file, run the file, read what happened" is the entire loop

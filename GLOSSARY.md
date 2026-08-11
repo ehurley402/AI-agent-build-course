@@ -6,12 +6,23 @@ them all in one place so you can look one back up later without hunting through
 old lessons.
 
 ## A0 — Orientation
-- **Terminal**: a window where you type text commands instead of clicking
+- **Sidebar**: the narrow strip of icons down the far-left edge of VS Code, each
+  one opening a different panel.
+- **Explorer**: the sidebar panel showing every open file/folder as an
+  expandable tree — how you find and open files. Icon: two overlapping pages.
+- **Editor (pane)**: the large central area where a file's contents show up
+  once you click it in the Explorer — where you actually type code.
+- **Panel**: one distinct section of the VS Code window — the Explorer, the
+  terminal, and the Claude Code chat are all panels.
+- **Terminal**: a panel where you type text commands instead of clicking
   buttons, and the computer types text back.
 - **Command**: one instruction you type into the terminal and press Enter to run.
 - **Command line**: another name for the terminal.
 - **PowerShell**: the specific kind of terminal Windows uses.
 - **Working directory**: the one folder the terminal is "standing in" right now.
+- **Copy / paste**: copying grabs text without removing it from where it was;
+  pasting drops that copy somewhere else (`Ctrl+C` to copy, click into the
+  destination, `Ctrl+V` to paste).
 
 ## A1 — Installing your tools
 - **Software package**: a chunk of software someone else built that you install

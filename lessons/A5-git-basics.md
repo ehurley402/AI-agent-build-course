@@ -72,8 +72,8 @@ git log --oneline
 ```
 
 I'm checking for at least one commit in the history. If it's empty, something in
-steps 1–4 didn't complete — tell me what `git status` shows right now and we'll
-trace back from there.
+steps 1–4 didn't complete — copy and paste what `git status` shows right now
+into the chat and we'll trace back from there.
 
 ## Why this matters
 Starting with lesson B1, every step ends with "now commit your progress." That's

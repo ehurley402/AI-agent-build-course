@@ -60,7 +60,8 @@ that they're really there.
    `git --version`.
 
 ## Verification
-Run both of these and paste me the output:
+Run both of these, then copy and paste everything the terminal shows — from the
+command itself down to the end of its output — into the chat with me:
 
 ```powershell
 python --version
